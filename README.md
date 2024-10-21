@@ -6,11 +6,7 @@ I’m a graduate student, basketball enthusiast, and passionate about coding!
 - 👯 I’m looking to collaborate on open source projects related to **short text clustering** and **IoT development**
 - 🔭 Current project: Working on controlling a servo using **ESP32** with a **web interface** 
 
-### 🌐 Connect with me:
-- Personal Website: [ekr26.asia](https://home.ekr26.asia)
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/karl-coder)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karl129&layout=compact&theme=radical)
 
 
 ### 📄 Latest Blog Posts
@@ -22,6 +18,13 @@ I’m a graduate student, basketball enthusiast, and passionate about coding!
 - [【python】一文学会 python 的 logging 的基本使用](https://blog.csdn.net/weixin_43308380/article/details/135383643)
 <!-- BLOG-POST-LIST:END -->
 
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karl129&layout=compact&theme=radical)
+
+
+### 🌐 Connect with me:
+- Personal Website: [ekr26.asia](https://home.ekr26.asia)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/karl-coder)
 
 
 ![Visitor Count](https://komarev.com/ghpvc/?username=KarlCoder)
