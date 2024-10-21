@@ -10,7 +10,7 @@ I’m a graduate student, basketball enthusiast, and passionate about coding!
 - Personal Website: [ekr26.asia](https://home.ekr26.asia)
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/karl-coder)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KarlCoder&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=karl129&layout=compact&theme=radical)
 
 
 ### 📄 Latest Blog Posts
