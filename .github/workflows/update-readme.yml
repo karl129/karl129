@@ -1,0 +1,32 @@
+name: Update README with Latest Blog Posts
+
+on:
+  schedule:
+    # 设置定时任务，这里是每天 UTC 时间凌晨 12 点自动运行
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 允许手动触发该工作流
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      # 检出仓库代码
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      # 从 RSS 源抓取最新的博客文章并更新到 README.md
+      - name: Update README with blog posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          feed_list: "https://rss.csdn.net/weixin_43308380/rss/map?spm=1001.2014.3001.5494" # 你的博客 RSS 链接
+          readme_file_path: "README.md" # 默认更新到 README.md 文件
+          max_post_count: "5" # 显示最新的5篇文章
+
+      # 提交修改到仓库
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Updated README with latest blog posts"
+          git push
