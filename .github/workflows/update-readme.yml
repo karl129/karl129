@@ -2,9 +2,8 @@ name: Update README with Latest Blog Posts
 
 on:
   schedule:
-    # 设置定时任务，这里是每天 UTC 时间凌晨 12 点自动运行
-    - cron: "0 0 * * *"
-  workflow_dispatch: # 允许手动触发该工作流
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:  # 手动触发
 
 jobs:
   update-readme:
@@ -12,15 +11,15 @@ jobs:
     steps:
       # 检出仓库代码
       - name: Check out the repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # 升级到 v3
 
       # 从 RSS 源抓取最新的博客文章并更新到 README.md
       - name: Update README with blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://rss.csdn.net/weixin_43308380/rss/map" # 你的博客 RSS 链接
-          readme_file_path: "README.md" # 默认更新到 README.md 文件
-          max_post_count: "5" # 显示最新的5篇文章
+          feed_list: "https://rss.csdn.net/weixin_43308380/rss/map"  # 你的 CSDN RSS 链接
+          readme_path: "README.md"  # 正确的参数是 readme_path
+          max_post_count: "5"  # 显示最新的5篇文章
 
       # 提交修改到仓库
       - name: Commit changes
