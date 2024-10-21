@@ -18,7 +18,7 @@ jobs:
       - name: Update README with blog posts
         uses: gautamkrishnar/blog-post-workflow@master
         with:
-          feed_list: "https://rss.csdn.net/weixin_43308380/rss/map?spm=1001.2014.3001.5494" # 你的博客 RSS 链接
+          feed_list: "https://rss.csdn.net/weixin_43308380/rss/map" # 你的博客 RSS 链接
           readme_file_path: "README.md" # 默认更新到 README.md 文件
           max_post_count: "5" # 显示最新的5篇文章
 
