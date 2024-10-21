@@ -13,4 +13,10 @@ I’m a graduate student, basketball enthusiast, and passionate about coding!
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KarlCoder&layout=compact&theme=radical)
 
 
+### 📄 Latest Blog Posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
+
+
+
 ![Visitor Count](https://komarev.com/ghpvc/?username=KarlCoder)
